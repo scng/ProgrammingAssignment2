@@ -1,6 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-#### The functions accept a matrix as input, and calculate the 
+#### The functions accept a matrix as input, calculate the 
 #### "inversed matrix" and cache it for the first time.
 #### For the second time if the same matrix is passed in, 
 #### the cached "inversed matrix" will be returned instead of 
@@ -64,6 +64,6 @@ cacheSolve <- function(x, ...) {
 ## csA <- cacheSolve(cA)
 ## csA == invA
 #### below should print the message "getting cached data"
-#### and csA should be the same inverseMatrix values as invA
+#### and ccsA should be the same inverseMatrix values as csA
 ## ccsA <- cacheSolve(cA)
 ## ccsA == csA
